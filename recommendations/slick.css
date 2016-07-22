@@ -1,3 +1,42 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.slider {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 200px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+#buy-button {
+    width: 100px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
 /* Slider */
 .slick-slider
 {
